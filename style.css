@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 69px;
+}
+.right h1{
+  padding-left: 20px;
+  color: #fff;
+}
+.left ul{
+  display: flex;
+  list-style-type: none;
+}
+.left a{
+  text-decoration: none;
+  color: #fff;
+  margin: 12px;
+  font-size: 20px;
+}
+
+.he{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 23px;
+  font-weight:bold;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    padding: 20px;
+  }
+.product-box {
+  height: 658px;
+  width: 340px;
+  left: 76px;
+  top: 208px;
+  border-radius: 0px;
+  border: 1px solid#000000;
+  margin: 20px auto;
+  }
+
+  .image {
+    width: 100%;
+    height: 70%;
+    background-image: url(https://s3-alpha-sig.figma.com/img/f8b9/e173/a6e105eea0cc5f5ef3de4c9950fca702?Expires=1676851200&Signature=RbFqB8XgfPF7Y5wg8wDhl~CcEj0g3qnyEjYFsVawqW-ClRyD7VVEtrfnytBq4BqUubT5u9A0XgLn9Dd9TfaBPlFDem51miH1LY-QdP9qOu5tFsyhGlK7v2CickmrHHyHQ7pHmp9Q-ua3380bH5QqDsiRdiXoFkwu9feSZzjbGE38XfbMuFSPBQFCJh8oTLyoXVI3XDFH~SV3EBVz8OLpmagMhx~bV19MxaodyrAw9DXOSG7i205b0NYNuJhPSDV5oNoyNxmW6jLvxIaCi4QMmxu~je-D8FzVUV6x8Jr9~lgSpTg5Of336rYBxUFFSQuOFQez92XGIuyAOB2~1Iq5zg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .info {
+    padding: 10px;
+    height: 40%;
+    margin-top: 33px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .brand {
+    font-size: 16px;
+    float: right;
+    margin-top: 2px;
+    margin-right: 40px;
+  }
+
+  .price {
+    font-size: 16px;
+    margin-top: 14px;
+    color:#000000;
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    color:#000000;
+  }
+  .stock{
+    margin-top: 14px;
+    font-size: 14px;
+    color:#000000;
+  }
